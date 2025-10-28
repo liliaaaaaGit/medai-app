@@ -35,30 +35,29 @@ export function LifeExpectancyCard() {
           </div>
         </div>
 
-        {/* Mobile view - text overlay on image */}
-        <div className="md:hidden">
-          <div className="relative w-full">
+        {/* Mobile view - side by side */}
+        <div className="md:hidden flex">
+          <div className="relative w-1/2 h-auto min-h-[400px]">
             <Image
               src="/life-expectancy.png"
               alt="Life expectancy"
-              width={600}
-              height={900}
-              className="w-full h-auto object-contain"
+              fill
+              className="object-contain object-top rounded-l-lg"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-6">
-              <div className="space-y-2 text-center text-white mb-4">
-                <h2 className="text-2xl font-bold drop-shadow-lg">Lebenserwartung</h2>
-                <p className="text-sm text-white drop-shadow-lg">basierend auf Ihrer Diagnose:</p>
-                <p className="text-5xl font-bold text-destructive drop-shadow-lg">1 Tag</p>
-              </div>
-            </div>
           </div>
-          <div className="p-4">
-            <Link href="/info" className="block w-full">
-              <Button variant="outline" className="w-full bg-red-500 text-white hover:bg-red-600 border-red-500">
-                Mehr erfahren
-              </Button>
-            </Link>
+          <div className="w-1/2 p-4 flex flex-col justify-center items-center space-y-3">
+            <div className="space-y-2 text-center">
+              <h2 className="text-lg font-bold text-foreground">Lebenserwartung</h2>
+              <p className="text-xs text-muted-foreground">basierend auf Ihrer Diagnose:</p>
+              <p className="text-3xl font-bold text-destructive">1 Tag</p>
+            </div>
+            <div className="pt-3 w-full">
+              <Link href="/info" className="block w-full">
+                <Button variant="outline" className="w-full bg-red-500 text-white hover:bg-red-600 border-red-500 text-sm">
+                  Mehr erfahren
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </CardContent>
