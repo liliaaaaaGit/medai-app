@@ -29,7 +29,7 @@ export default function App() {
             Haben Sie es geglaubt? Oder war Ihnen klar, dass Sie von dieser Diagnose nicht sofort sterben werden?
           </p>
           <p>
-            Genau hier liegt die Gefahr künstlicher Intelligenz im Gesundheitswesen. Sie klingt rational, präzise und überzeugend – doch sie kann sich irren.
+            Genau hier liegt die Gefahr künstlicher Intelligenz im Gesundheitswesen. Sie klingt oft rational, präzise und überzeugend – doch sie kann sich irren.
           </p>
         </div>
 

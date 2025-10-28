@@ -10,8 +10,8 @@ export function LifeExpectancyCard() {
     <Card>
       <CardContent className="p-0">
         {/* Desktop view - side by side */}
-        <div className="hidden md:flex">
-          <div className="relative w-2/5 h-auto min-h-[450px]">
+        <div className="hidden md:flex h-[450px]">
+          <div className="relative w-2/5 h-full">
             <Image
               src="/life-expectancy.png"
               alt="Life expectancy"
@@ -19,7 +19,7 @@ export function LifeExpectancyCard() {
               className="object-contain object-top rounded-l-lg"
             />
           </div>
-          <div className="w-3/5 p-6 flex flex-col justify-center items-center space-y-4">
+          <div className="w-3/5 h-full flex flex-col justify-center items-center space-y-4 px-6">
             <div className="space-y-2 text-center">
               <h2 className="text-3xl font-bold text-foreground">Lebenserwartung</h2>
               <p className="text-base text-muted-foreground">basierend auf Ihrer Diagnose:</p>
@@ -36,8 +36,8 @@ export function LifeExpectancyCard() {
         </div>
 
         {/* Mobile view - side by side */}
-        <div className="md:hidden flex">
-          <div className="relative w-1/2 h-auto min-h-[350px]">
+        <div className="md:hidden flex h-[350px]">
+          <div className="relative w-1/2 h-full">
             <Image
               src="/life-expectancy.png"
               alt="Life expectancy"
@@ -45,7 +45,7 @@ export function LifeExpectancyCard() {
               className="object-contain object-top rounded-l-lg"
             />
           </div>
-          <div className="w-1/2 p-3 flex flex-col justify-center items-center space-y-2">
+          <div className="w-1/2 h-full flex flex-col justify-center items-center space-y-2 px-3">
             <div className="space-y-1 text-center">
               <h2 className="text-lg font-bold text-foreground">Lebenserwartung</h2>
               <p className="text-xs text-muted-foreground">basierend auf Ihrer Diagnose:</p>
