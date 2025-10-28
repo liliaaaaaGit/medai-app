@@ -11,7 +11,7 @@ export function ClinicalSummary() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Klinische Zusammenfassung</CardTitle>
+        <CardTitle>Medizinische Einschätzung</CardTitle>
         <CardDescription>Akute Diagnose</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">

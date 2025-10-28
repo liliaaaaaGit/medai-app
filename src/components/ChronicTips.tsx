@@ -11,8 +11,8 @@ export function ChronicTips() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Chronische Tipps</CardTitle>
-        <CardDescription>Langzeitmanagement</CardDescription>
+        <CardTitle>Medizinische Einschätzung</CardTitle>
+        <CardDescription>Chronisches Krankheitsmanagement</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         {result.conditionSummary && (
