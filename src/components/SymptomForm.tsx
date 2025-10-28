@@ -44,7 +44,7 @@ export function SymptomForm() {
 
     const formData = {
       age: ageNum,
-      sex: localSex as "female" | "male" | "diverse" | "unspecified",
+      sex: localSex as "female" | "male" | "diverse",
       symptoms: localSymptoms,
     };
 
@@ -94,7 +94,6 @@ export function SymptomForm() {
                   <SelectItem value="female">Weiblich</SelectItem>
                   <SelectItem value="male">Männlich</SelectItem>
                   <SelectItem value="diverse">Divers</SelectItem>
-                  <SelectItem value="unspecified">Unbestimmt</SelectItem>
                 </SelectContent>
               </Select>
             </div>

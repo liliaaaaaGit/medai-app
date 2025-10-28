@@ -7,7 +7,7 @@ interface MedAIState {
   mode: "acute" | "chronic";
   input: {
     age?: number;
-    sex?: "female" | "male" | "diverse" | "unspecified";
+    sex?: "female" | "male" | "diverse";
     symptoms?: string;
   };
   result?: any;

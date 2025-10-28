@@ -21,7 +21,7 @@ export function ModeToggle() {
         onClick={() => setMode("chronic")}
         className={cn("flex-1")}
       >
-        Langzeitmanagement
+        Chronisches Krankheitsmanagement
       </Button>
     </div>
   );

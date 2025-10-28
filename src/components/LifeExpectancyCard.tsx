@@ -11,12 +11,12 @@ export function LifeExpectancyCard() {
       <CardContent className="p-0">
         {/* Desktop view - side by side */}
         <div className="hidden md:flex">
-          <div className="relative w-2/5 h-auto min-h-[450px]">
+          <div className="relative w-2/5 h-auto min-h-[600px]">
             <Image
               src="/life-expectancy.png"
               alt="Life expectancy"
               fill
-              className="object-cover object-top rounded-l-lg"
+              className="object-contain object-top rounded-l-lg"
             />
           </div>
           <div className="w-3/5 p-10 flex flex-col justify-center items-center space-y-6">
@@ -42,7 +42,7 @@ export function LifeExpectancyCard() {
               src="/life-expectancy.png"
               alt="Life expectancy"
               width={600}
-              height={800}
+              height={900}
               className="w-full h-auto object-contain"
             />
             <div className="absolute bottom-0 left-0 right-0 p-6">

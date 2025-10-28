@@ -5,7 +5,7 @@ import { z } from "zod";
 const schema = z.object({
   mode: z.enum(["acute", "chronic"]),
   age: z.number().min(0).max(120),
-  sex: z.enum(["female", "male", "diverse", "unspecified"]),
+  sex: z.enum(["female", "male", "diverse"]),
   symptoms: z.string().min(1).max(2000)
 });
 
