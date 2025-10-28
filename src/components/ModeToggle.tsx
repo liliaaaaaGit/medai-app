@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useMedAIStore } from "@/store/useMedAIStore";
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/lib/utils";
 
 export function ModeToggle() {
   const { mode, setMode } = useMedAIStore();
