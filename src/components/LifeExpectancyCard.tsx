@@ -14,7 +14,7 @@ export function LifeExpectancyCard() {
             src="/life-expectancy.png"
             alt="Life expectancy"
             fill
-            className="object-contain object-top"
+            className="object-cover object-top"
           />
         </div>
         <div className="w-3/5 h-full flex flex-col justify-center items-center space-y-2 px-6">
@@ -40,7 +40,7 @@ export function LifeExpectancyCard() {
             src="/life-expectancy.png"
             alt="Life expectancy"
             fill
-            className="object-contain object-top"
+            className="object-cover object-top"
           />
         </div>
         <div className="w-1/2 h-full flex flex-col justify-center items-center space-y-1 px-3">
