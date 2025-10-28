@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMedAIStore } from "@/src/store/useMedAIStore";
+import { useMedAIStore } from "@/store/useMedAIStore";
 
 export function Header() {
   const { mode, setMode } = useMedAIStore();

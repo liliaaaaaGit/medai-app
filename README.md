@@ -18,6 +18,33 @@ A Next.js web application that demonstrates AI-powered medical diagnosis capabil
 - **AI Integration**: OpenAI API with custom prompts
 - **Validation**: Zod for input validation
 
+## 🚀 Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use [Vercel](https://vercel.com/new).
+
+### Vercel Settings:
+- **Framework**: Next.js
+- **Output Directory**: `.next`
+- **Root Directory**: (leave empty)
+- **Build Command**: `npm run build`
+- **Install Command**: `npm install`
+
+### Environment Variables:
+Add your OpenAI API key in Vercel's environment variables:
+- `OPENAI_API_KEY` = your_openai_api_key_here
+
+### Manual Deployment:
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# For production
+vercel --prod
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites

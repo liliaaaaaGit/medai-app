@@ -1,7 +1,7 @@
 "use client";
 
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/src/components/ui/card";
-import { useMedAIStore } from "@/src/store/useMedAIStore";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { useMedAIStore } from "@/store/useMedAIStore";
 
 export function ChronicTips() {
   const { result, loading } = useMedAIStore();

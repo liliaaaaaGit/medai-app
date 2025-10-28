@@ -1,7 +1,7 @@
 "use client";
 
-import { Separator } from "@/src/components/ui/separator";
-import { StatisticBlock } from "@/src/components/StatisticBlock";
+import { Separator } from "@/components/ui/separator";
+import { StatisticBlock } from "@/components/StatisticBlock";
 import { useRouter } from "next/navigation";
 
 export default function App() {

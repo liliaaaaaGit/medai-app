@@ -1,12 +1,12 @@
 "use client";
 
-import { Header } from "@/src/components/Header";
-import { ModeToggle } from "@/src/components/ModeToggle";
-import { SymptomForm } from "@/src/components/SymptomForm";
-import { ClinicalSummary } from "@/src/components/ClinicalSummary";
-import { ChronicTips } from "@/src/components/ChronicTips";
-import { LifeExpectancyCard } from "@/src/components/LifeExpectancyCard";
-import { useMedAIStore } from "@/src/store/useMedAIStore";
+import { Header } from "@/components/Header";
+import { ModeToggle } from "@/components/ModeToggle";
+import { SymptomForm } from "@/components/SymptomForm";
+import { ClinicalSummary } from "@/components/ClinicalSummary";
+import { ChronicTips } from "@/components/ChronicTips";
+import { LifeExpectancyCard } from "@/components/LifeExpectancyCard";
+import { useMedAIStore } from "@/store/useMedAIStore";
 
 export default function HomePage() {
   const mode = useMedAIStore((s) => s.mode);

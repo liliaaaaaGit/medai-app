@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/src/components/ui/button";
-import { useMedAIStore } from "@/src/store/useMedAIStore";
+import { Button } from "@/components/ui/button";
+import { useMedAIStore } from "@/store/useMedAIStore";
 import { cn } from "@/src/lib/utils";
 
 export function ModeToggle() {
