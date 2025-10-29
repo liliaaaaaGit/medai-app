@@ -80,7 +80,7 @@ export default function App() {
         <div className="my-16 text-center">
           <div className="max-w-4xl mx-auto">
             <Image
-              src="/RimaTod.png"
+              src="/Doc.png"
               alt="Wenn Maschinen mitreden – wem würden Sie im Zweifel mehr vertrauen: der KI oder dem Arzt?"
               width={800}
               height={400}
