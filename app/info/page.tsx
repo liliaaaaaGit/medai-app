@@ -91,6 +91,8 @@ export default function App() {
             />
           </div>
           
+          <Separator className="my-12 bg-gray-300" />
+          
           <button 
             onClick={handleBackToDiagnose}
             className="mt-8 bg-destructive text-white px-6 py-3 rounded-md hover:bg-destructive/90 transition"
