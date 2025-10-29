@@ -3,6 +3,7 @@
 import { Separator } from "@/components/ui/separator";
 import { StatisticBlock } from "@/components/StatisticBlock";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function App() {
   const router = useRouter();
@@ -77,9 +78,15 @@ export default function App() {
 
         {/* Thought-Provoking Question */}
         <div className="my-16 text-center">
-          <p className="text-destructive max-w-2xl mx-auto text-2xl" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}>
-            Wenn Maschinen mitreden – wem würden Sie im Zweifel mehr vertrauen: der KI oder dem Arzt?
-          </p>
+          <div className="max-w-4xl mx-auto">
+            <Image
+              src="/RimaTod.png"
+              alt="Wenn Maschinen mitreden – wem würden Sie im Zweifel mehr vertrauen: der KI oder dem Arzt?"
+              width={800}
+              height={400}
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
           
           <button 
             onClick={handleBackToDiagnose}
