@@ -78,9 +78,12 @@ export default function App() {
 
         {/* Thought-Provoking Question */}
         <div className="my-16 text-center">
+          <p className="text-destructive max-w-2xl mx-auto text-2xl mb-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}>
+            Wenn Maschinen mitreden – wem würden Sie im Zweifel mehr vertrauen: der KI oder dem Arzt?
+          </p>
           <div className="max-w-4xl mx-auto">
             <Image
-              src="/Doc.png"
+              src="/Doc2.png"
               alt="Wenn Maschinen mitreden – wem würden Sie im Zweifel mehr vertrauen: der KI oder dem Arzt?"
               width={800}
               height={400}
