@@ -13,11 +13,11 @@ export function Header() {
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 relative">
             <Image
-              src="/robot-logo.svg"
+              src="/LogoMedAI.png"
               alt="MedAI Logo"
               width={32}
               height={32}
-              className="w-full h-full"
+              className="w-full h-full object-cover rounded-lg"
             />
           </div>
           <h1 className="text-xl font-semibold hidden md:block">MedAI - Traust du mir?</h1>
