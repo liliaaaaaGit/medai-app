@@ -11,12 +11,12 @@ export function Header() {
     <header className="border-b bg-background sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 relative">
+          <div className="w-15 h-15 relative">
             <Image
               src="/LogoMedAI.png"
               alt="MedAI Logo"
-              width={32}
-              height={32}
+              width={60}
+              height={60}
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
