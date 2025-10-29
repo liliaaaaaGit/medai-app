@@ -21,7 +21,7 @@ export function Header() {
             />
           </div>
           <h1 className="text-xl font-semibold hidden md:block">MedAI - Traust du mir?</h1>
-          <h1 className="text-lg font-semibold md:hidden">Traust du mir?</h1>
+          <h1 className="text-lg font-semibold md:hidden">MedAI - Traust du mir?</h1>
         </div>
         
         <nav className="hidden md:flex items-center gap-4">
