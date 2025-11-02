@@ -34,7 +34,7 @@ export function ClinicalSummary() {
                 return (
                   <li key={idx} className="text-sm">
                     <span className="font-medium">{label}</span>
-                    {probability && <span className="text-muted-foreground"> ({probability})</span>}
+                    {probability && <span className="text-muted-foreground"> ({probability}%)</span>}
                     {reasoning && <p className="text-muted-foreground ml-4">{reasoning}</p>}
                   </li>
                 );

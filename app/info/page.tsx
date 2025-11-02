@@ -42,7 +42,7 @@ export default function App() {
             KI erkennt Muster, stellt Diagnosen, gibt Therapieempfehlungen und begleitet Patienten langfristig. Sie hilft Ärzten, komplexe Daten auszuwerten und entlastet das Gesundheitssystem. Doch fehlender Kontext, Verzerrungen und unvollständige Daten können zu Fehleinschätzungen führen.
           </p>
           <p>
-            Eine aktuelle Vergleichsstudie zeigt, wie leistungsfähig – und zugleich trügerisch – KI sein kann: In einem Test mit 400 simulierten Patientenfällen wurden Ärzte und ein KI-Sprachmodell miteinander verglichen. Die Ergebnisse sprechen für sich:
+            Eine aktuelle Vergleichsstudie zeigt, wie leistungsfähig – und zugleich trügerisch – KI sein kann: In einem Test mit klinischen Fallvignetten wurden Ärzte und ein KI-Sprachmodell miteinander verglichen. Die Ergebnisse sprechen für sich:
           </p>
         </div>
 
@@ -63,14 +63,15 @@ export default function App() {
           
           {/* Source Caption */}
           <p className="text-xs text-gray-500 text-left mt-8">
-            Quelle: Vergleichsstudie zur Diagnosegenauigkeit von KI-Systemen, veröffentlicht 2024 (New York Times / advisory.com). Die Studie basierte auf 400 simulierten Patientenfällen – unter realen Bedingungen kann die Genauigkeit stark variieren.
+          Goh E. et al., Influence of Large Language Models on Diagnostic Reasoning, JAMA Network Open 2024.
+          Die Studie basierte auf simulierten Patientenszenarien (Fallvignetten) und nicht auf realen Patientenfällen – unter klinischen Bedingungen kann die Genauigkeit daher deutlich variieren.
           </p>
         </div>
 
         {/* Continuation Text */}
         <div className="space-y-6 mb-12">
           <p>
-            Ein beeindruckendes Ergebnis – aber kein Beweis für Zuverlässigkeit im Alltag. Denn KI bewertet Fälle – Ärzte bewerten Menschen. Damit wird KI zum Akteur der Gesundheitskommunikation: Sie spricht, erklärt, beeinflusst und prägt, wie wir über Krankheit, Risiko und Gesundheit denken.
+            Ein beeindruckendes Ergebnis – aber kein Beweis für Zuverlässigkeit im Alltag. Denn KI bewertet Fälle – Ärzte bewerten Menschen. Trotzdem wird KI zum Akteur der Gesundheitskommunikation: Sie spricht, erklärt, beeinflusst und prägt, wie wir über Krankheit, Risiko und Gesundheit denken.
           </p>
         </div>
 
